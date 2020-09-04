@@ -192,3 +192,10 @@ button.ghost {
 .container.right-panel-active .overlay-container {
   transform: translateX(-100%);
 }
+
+/* Bring sign up over sign in */
+.container.right-panel-active .sign-up-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+}
