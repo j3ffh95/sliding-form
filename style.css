@@ -180,3 +180,15 @@ button.ghost {
 .overlay-left {
   transform: translateX(-20%);
 }
+
+/* Animation */
+
+/* Move signIn to the right */
+.container.right-panel-active .sign-in-container {
+  transform: translateX(100%);
+}
+
+/* Move overlay to the left */
+.container.right-panel-active .overlay-container {
+  transform: translateX(-100%);
+}
